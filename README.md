@@ -14,4 +14,4 @@
 
 ## ライセンス
 ・[リアルタイム地震ビューアー](https://github.com/kotoho7/scratch-realtime-earthquake-viewer-page)　　
-・[リアルタイム地震ビューアー改造版](https://srev-s.t0729.com/)　　
+・[リアルタイム地震ビューアー改造版](https://srev-s.t0729.com/)
