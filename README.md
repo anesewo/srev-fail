@@ -13,5 +13,5 @@
 そのため、CC BY 2.0 が認める範囲であれば改変・再配布・共有が可能ですが、ライセンス表記が必須です。
 
 ## ライセンス
-・[リアルタイム地震ビューアー](https://github.com/kotoho7/scratch-realtime-earthquake-viewer-page)
-・[リアルタイム地震ビューアー改造版](https://srev-s.t0729.com/)
+・[リアルタイム地震ビューアー](https://github.com/kotoho7/scratch-realtime-earthquake-viewer-page)　　
+・[リアルタイム地震ビューアー改造版](https://srev-s.t0729.com/)　　
