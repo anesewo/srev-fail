@@ -314,7 +314,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
           ), true);
         }
       };
-      let projectDecodeBuffer = new ArrayBuffer(1220);
+      let projectDecodeBuffer = new ArrayBuffer(1192);
       let projectDecodeIndex = 0;
       const decodeChunk = (size) => {
         try {
@@ -322,12 +322,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
           base85decode(document.currentScript.getAttribute("data"), projectDecodeBuffer, projectDecodeIndex);
           document.currentScript.remove();
           projectDecodeIndex += size;
-          setProgress(interpolate(0.1, 0.75, projectDecodeIndex / 1220));
+          setProgress(interpolate(0.1, 0.75, projectDecodeIndex / 1190));
         } catch (e) {
           handleError(e);
         }
       };
-      </script><script data="wC_B+4****2****]G3IqO@l*+[dZ1,6rA+*b*DlNwLKzIUF*2OGHh9EPa|p)9\^UnE=@nHaESw+|P?HAeem_-gLzuim[ghu]sn]\@u\1d/_*9`_F9\,^+r?@BNWLK8(ne1M1-x/QbKZiJq+dfE38yJL],Cmg[QBbUo?mGaW6IXhaEz-BsRH;l_D(ubKP`;j-IJ97)V?8~~t_Pc`8QJauW3eA@.ZW[1LVe@]]aR0+j@^{*T5uc:Sxq0mC|\SCib:g3j:k:]i|4dVlI__a=410y8p3/W{/qSsqJn^`bWa;dBBh03bt{p?wS,yKkk[yPnq=mAo{Q=-vpur3ARvZ1R-/dTNgh0hqG9Dv7DDkUXp)S4.gFXry(rD[E[sX`71=,@?eUBDE:d+brvuV2Y?iH[iB2QX{,+S,9No{T4?)vB/=3D]ey;p{e3MxU9HmX4fi]peYKVS}2e4vUUept8,TCqN\5l=;-4BC6fJMZAV3XRqS6SQ*iO^*^~p80Buuk))_5ousKrISNz04:c0rO=_3]{yPeF^fCfk[O.I:C7/+0wej9/D?c,53mL}_m2SlssM88IR+lxNV-k}J^8:|KB^a7|A(rb(RLX5*H8z`2l^VCqsy.1U[~Alh]s_0JsiF|yx?)X_hCdNrz3(2;il;D]9_;/}?SwZFy|oMS2DuQA]:_S=8j[.~8,IoiAJUVhchIQWZ:[~eLL*;/9rg9dncqXLUSKE0*{|7:VE_c0B{BWK1iIMixl={ft[P5Z2X(sA0LKB:PuqK*0foKr/jxYozKbLopLQw*l~ALuT}mtw*hRj,:w22KR-6}O=mvXJTk,Vz93B)yO/SQ-YCM/EisNqb1\30h@dH+O5u@g(qlx6M7j1y3+p+CinExUzt4oY6.N:1TnZS|a4N@OWcw5|ZR_+DtNVr/HeDUvtCKwE7n=Va_*P=j{:qaRP@a:C|K3utwPvWa:\MQ]70\Ai85ZCvZFUi0,M.Wm?c6n~xt?SMaARl/;5ti2{KPt)`TWi.kYT+nHU]kdz[IQ/QV@=m_^?T``n|VE9*RfaXtW-+nG)idy{yP~.+8H***2B***PxBoUH?~)YJMMxjNoRZ58TZoI|s62;y**Y9*2lqJh=9_IFLbS9YdIVJ7`d@J{[-w8)-n7MTXC4TaDfnQKErR,?OSMh6?mzlk]/VT[e2;a^Wh:GQ7Xt9{aS5o7Zg1^3H(djAt`i=K~inS3O=0d7eLRO*3OBYL1TwBI~eu@mo`tKg+@UwzoWy-jYp]DFF{m^}^DC]ccW6bVE]=`qfnCiuL-zrXgpc3TbDQrvYUy+VGL]++^0`__9SXBroIMBE_P;BAS5,*4****2****]G3IqO@l*+[dZ1,6rA+*********************(6e;L@]1y8;]|SMszk`*Hf/+*2Zr**r-OtD=Y3G*h+***J,***N**************zj8/+G]P@JIdCo9}Y/2;YYm@J6sO::Hdgk:3HIzIa\Z4(au^+ONAT;B5(***,6(**cvy8*PpvE+*****">decodeChunk(1220)</script>
+      </script><script data="wC_B+4****2****FNpDA1XZ|*0fFZ,6rA+*b*DlNwLKzIUF*2OhgQXEzysd94@+Z-Fgsv^4QwdSR;V5_UgOY,vu*d;)dI(iU1G)qVLaMv(3D;r0s,9/u+-d\pz9D@r~9)JVGNL)5sev*(s6b`*W`l-`9=\haRWz/C{ydhd8TTWBSGG@z@2lT*Co,3Lr*_Pw3]=lk:]H:d-fS\;3(04/R2wa9^}X5|(xkcjp2};d)n@ZTtgM`,it:\9:zUTT3I~Wt3=rn3d-=\Sv^w0jgOxdwc,g1[TGmn]Rq^bsdf\I()907_2I;ve:qI4YCgk,lh.gnPa+8(I71fdC=:5/eTR)[^^-VF5{0o]t?v5-=Z~0.HiT/BG`YyLWdP3-g@n@JOlL8Q8y([:W`~lh{}k[8WymO_;2s=lEr.B2*ogIWf2R.8=yNCbkPD0H,ESorqMOD:?Bd}G[(6H`d1}.284zXnLbd3/\@_BC}Ab]aE]l4uY[RLyFMf4-A~pj_);]NXm_N\O7?heZpw[oe{aU9]|a}fbN=9r:T|ts.K7i)|BvPyfF`S6(9wd|8NP8G.Z89l-_p,(5SW?2Ob}x@Hoi4enq@dY1Y[[i\zttscdS\xdCjPpr@40GlX24xY6k~7NW`LIyIILk].{;|K.]qrbu1el)B~a5_Vm(sfyjLL0Ww+]gjHGD{Vd+sHssq~NfqKp5TfTs,Aia0f?n7eq4{ikrPwCXBdt;{zDLR~8sY0-vzMKkjEGehnHQmMFrPibE88R\]g^8879P8^{hd-Of]@E^OzV8ycz[nAKll7R=WEuwQ?P=,?60xl0i)^{SD?B=_902tgY,]T@E9y~p*9YsYeqBPOD\I8w2@oq:Ok)jYMV]\L`M,Hl-:dWVtAzD610k[p-{xa`2QrfvLKoTC}CwJWcAvf:Q380?d||=pT.pEwBY6:TO}SS;j_79OZ9oJ.xZocsVypRAEvC`c,vU}lINO,t(O~.)MZidaHc8uxn`3t0ewc]iSX*I2^M4Rh7i.Uahp8f,D6SlC1Q^(-2rXZ,tre2]:26L/i;/**J71**NA+**yta::Kspk:|syP:7U)wJWEE5:{1lVJX;U7;`,]l:NBx/PBA9;BE,rQ0:zFAo\[L8bb0abAgnUtchUqMiC+3apA/fyBuFisMtn^`E2w0qcHi0@?cZyrTe+mMM9wUgn.^6wF1h9|]DR}/npp.JZse1DAK5p/tAGde7x)inh.ET`^=Rh2TSVy+coE/7SZN}\GHR;9[9NWAem6SY\^/4k;O]mK((rS.-1Q/;vBc[7*szk`*Hf/+*2Zr**r-OtDRI=Eh23***0B***6*******************b*DlNwLKzIUF*2ONVT;BAS5,*4****2****tM)JlyNd9*JBY?*NXq-****************\3***UB*o9~+Q;JId1o9l[PwJx^C5:y03Y98}vVJ\{T)ITGS?K{aRy+*****.6(**a+***26********">decodeChunk(1190)</script>
 
     <script>
       const getProjectData = (function() {
@@ -359,7 +359,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
         return () => (() => {
         const buffer = projectDecodeBuffer;
         projectDecodeBuffer = null; // Allow GC
-        return Promise.resolve(new Uint8Array(buffer, 0, 1220));
+        return Promise.resolve(new Uint8Array(buffer, 0, 1190));
       })().then(async (data) => {
           zip = await Scaffolding.JSZip.loadAsync(data);
           const file = findFileInZip('project.json');
